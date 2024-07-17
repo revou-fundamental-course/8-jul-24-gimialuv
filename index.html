@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>BODY MASS INDEX</title>
+        <!-- Google Font Poppins -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700">
+        <!-- Font Awesome for icons -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="card">
+            <div class="title">BMI CALCULATOR</div>
+            <div class="screen screen_1">
+
+                <!-- Age input block -->
+                <div class="ageBlock">
+                    <div class="blockText">AGE</div>
+                    <div class="ageControls">
+                        <div class="ageMinus circleBtn">-</div>
+                        <div class="ageNum">25</div>
+                        <div class="agePlus circleBtn">+</div>
+                    </div>
+                </div>
+
+                <!-- Height input block -->
+                <div class="heightBlock">
+                    <div class="blockText">HEIGHT (cm)</div>
+                    <input class="heightInput" type="number"/>
+                </div>
+
+                <!-- Weight input block -->
+                <div class="weightBlock">
+                    <div class="blockText">WEIGHT (kg)</div>
+                    <input class="weightInput" type="number"/>
+                </div>
+
+                <!-- Gender selection blocks -->
+                <div class="genderBlock female">
+                    <i class="fas fa-venus"></i>
+                    <div class="genderText">FEMALE</div>
+                </div>
+                <div class="genderBlock male">
+                    <i class="fas fa-mars"></i>
+                    <div class="genderText">MALE</div>
+                </div>
+            </div>
+
+            <!-- Calculate BMI button -->
+            <div class="calculateBtn">CALCULATE YOUR BMI</div>
+
+            <!-- Result screen -->
+            <div class="screen screen_2">
+                <div class="resultTitle">RESULT</div>
+                <div class="blockOutside">
+                    <div class="blockInside">
+                        <div class="resultRange">Normal</div>
+                        <div class="resultBMI">22.0</div>
+                        <div class="suggestBMI">
+                            <div class="suggestTitle">Suggestion</div>
+                            <span class="min">18.5</span><span>~</span><span class="max">24.0</span>
+                            <span>
+                                kg/m²</span>
+                        </div>
+                        <div class="suggestion">
+                            You have a normal body weight. Keep up the good work by maintaining a healthy
+                            lifestyle through nutritious eating and staying active. Regular health check-ups
+                            can help you track your progress and maintain your well-being.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- jQuery library -->
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+            <!-- Custom JavaScript -->
+            <script src="js/script.js"></script>
+        </body>
+
+    </html>

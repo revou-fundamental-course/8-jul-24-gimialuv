@@ -1,0 +1,268 @@
+
+/* Set the vertical alignment of all elements to the top, set the box-sizing to border-box, set the font family to Ubuntu, set the font size to 12px, set the letter spacing to 1px, set the text alignment to center, set the position to relative, set the color to rgba(255, 255, 255, 0.7) */
+* {
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: Ubuntu, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    position: relative;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Set the width and height of the body and html to 100%, set the padding and margin to 0, set the background color to #aed4d1, set the display to flex, set the justify-content and align-items to center, set the flex-direction to column */
+body,
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #aed4d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Set the width to 90%, set the max-width to 400px, set the background color to #000000, set the border-radius to 17px, set the box-shadow to 0 0 10px 0 rgba(0, 0, 0, 0.5), set the overflow to hidden, set the margin to 20px */
+.card {
+    width: 90%;
+    max-width: 400px;
+    background-color: #000000;
+    border-radius: 17px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin: 20px;
+}
+
+/* Set the width to 100% */
+.screen {
+    width: 100%;
+}
+
+/* Set the height to auto, set the position to absolute, set the left to 100%, set the bottom to 75px, set the background color to #000000, set the transition to left 0.5s ease-in-out */
+.screen_2 {
+    height: auto;
+    position: absolute;
+    left: 100%;
+    bottom: 75px;
+    background-color: #000000;
+    transition: left 0.5s ease-in-out;
+}
+
+/* Set the font size to 25px, set the color to #FFFFFF, set the margin to 20px 30px */
+.resultTitle {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin: 20px 30px;
+}
+
+/* Set the padding to 5px 30px */
+.blockOutside {
+    padding: 5px 30px;
+}
+
+/* Set the border-radius to 17px, set the background color to #222222, set the padding-top to 10px */
+.blockInside {
+    border-radius: 17px;
+    background-color: #222222;
+    padding-top: 10px;
+}
+
+/* Set the font size to 50px, set the font weight to 700, set the color to #F7CAC9 */
+.resultBMI {
+    font-size: 50px;
+    font-weight: 700;
+    color: #F7CAC9;
+}
+
+/* Set the padding to 20px 0 */
+.suggestBMI {
+    padding: 20px 0;
+}
+
+/* Set the color to #FFFFFF */
+.suggestBMI span {
+    color: #FFFFFF;
+}
+
+/* Set the padding to 20px */
+.suggestion {
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+/* Set the padding to 30px 0 20px */
+.title {
+    padding: 30px 0 20px;
+}
+
+/* Set the display to inline-block, set the width to 43%, set the height to 100px, set the border-radius to 17px, set the background color to #222222, set the margin to 10px 1%, set the padding to 10px, set the border to solid 2px transparent, set the box-sizing to border-box */
+.genderBlock {
+    display: inline-block;
+    width: 43%;
+    height: 100px;
+    border-radius: 17px;
+    background-color: #222222;
+    margin: 10px 1%;
+    padding: 10px;
+    border: solid 2px transparent;
+    box-sizing: border-box;
+}
+
+/* Set the border color to #6e89c1, set the cursor to pointer */
+.genderBlock:hover {
+    border-color: #6e89c1;
+    cursor: pointer;
+}
+
+/* Set the font size to 50px */
+.genderBlock i {
+    font-size: 50px;
+}
+
+/* Set the top to 10px */
+.genderText {
+    top: 10px;
+}
+
+/* Set the background color to #92a8d5 */
+.genderClicked {
+    background-color: #92a8d5;
+}
+
+/* Set the margin-bottom to 5px */
+.blockText {
+    margin-bottom: 5px;
+}
+
+/* Set the width to 89%, set the height to auto, set the border-radius to 17px, set the background color to #222222, set the margin to 10px auto, set the padding to 10px */
+.heightBlock {
+    width: 89%;
+    height: auto;
+    border-radius: 17px;
+    background-color: #222222;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/* Set the background color to transparent, set the font size to 30px, set the font weight to 700, set the color to #FFFFFF, set the width to 100%, set the border-color to transparent transparent #ffffff00 transparent, set the border-width to 1px, set the border-radius to 8px */
+.heightInput {
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 100%;
+    border-color: transparent transparent #ffffff00 transparent;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+/* Set the width to 89%, set the height to auto, set the border-radius to 17px, set the background color to #222222, set the margin to 10px auto, set the padding to 10px */
+.weightBlock {
+    width: 89%;
+    height: auto;
+    border-radius: 17px;
+    background-color: #222222;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/* Set the background color to transparent, set the font size to 30px, set the font weight to 700, set the color to #ffffffff, set the width to 100%, set the border-color to transparent transparent #00000000 transparent, set the border-width to 1px, set the border-radius to 8px */
+.weightInput {
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffffff;
+    width: 100%;
+    border-color: transparent transparent #00000000 transparent;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+/* Set the width to 89%, set the height to auto, set the border-radius to 17px, set the background color to #222222, set the margin to 10px auto, set the padding to 10px */
+.ageBlock,
+.weightBlock {
+    width: 89%;
+    height: auto;
+    border-radius: 17px;
+    background-color: #222222;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/* Set the font size to 30px, set the font weight to 700, set the color to #FFFFFF */
+.ageNum {
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* Set the display to flex, set the flex-direction to column, set the align-items to center */
+.ageBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Set the margin-bottom to 10px */
+.blockText {
+    margin-bottom: 10px;
+}
+
+/* Set the display to flex, set the align-items to center */
+.ageControls {
+    display: flex;
+    align-items: center;
+}
+
+/* Set the width and height to 35px, set the display to flex, set the justify-content and align-items to center, set the background color to #222222, set the color to white, set the font size to 25px, set the font weight to 300, set the border-radius to 50%, set the margin to 0 10px, set the cursor to pointer */
+.circleBtn {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Set the background color to #F7CAC9, set the user-select to none, set the cursor to pointer */
+.circleBtn:hover {
+    background-color: #F7CAC9;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* Set the padding to 20px 0, set the margin-top to 20px, set the background color to #F7CAC9, set the color to #222222, set the cursor to pointer */
+.calculateBtn {
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #F7CAC9;
+    color: #222222;
+    cursor: pointer;
+}
+
+/* Set the background color to #F7CAC9, set the color to #222222 */
+.calculateBtn:hover {
+    background-color: #F7CAC9;
+    color: #222222;
+}
+
+/* Set the width of the genderBlock to 45% */
+@media (max-width: 600px) {
+    .genderBlock {
+        width: 45%;
+    }
+
+    .ageBlock,
+    .weightBlock {
+        width: 45%;
+    }
+}
